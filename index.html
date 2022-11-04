@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html data-dark lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>App Parking</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.1.3/hamburgers.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <link href="css/styles.css" rel="stylesheet" />
+  </head>
+  <body data-dark>
+    <button class="panel-btn hamburger hamburger--vortex" type="button">
+      <span class="hamburger-box">
+        <span class="hamburger-inner"></span>
+      </span>
+    </button>
+    <aside class="panel">
+      <nav class="menu">
+        <a href="#seccion1" data-scroll-spy>Ingresar Vehiculo</a>
+        <a href="#seccion2" data-scroll-spy>Registrar Salida de Vehiculo</a>
+        <a href="#seccion3" data-scroll-spy>Configuración de Tarifas</a>
+        <a href="#seccion4" data-scroll-spy>Registro de Usuarios</a>
+        <a href="#seccion5" data-scroll-spy>Reportes</a>
+      </nav>
+    </aside>
+    <main>
+      <div class="logo">
+        <img src="assets/logo.jpg" alt="" width="500" height="800" />
+      </div>
+      <section id="seccion1" class="section" data-scroll-spy></section>
+      <section id="seccion2" class="section" data-scroll-spy></section>
+      <section id="seccion3" class="section" data-scroll-spy></section>
+      <section id="seccion4" class="section" data-scroll-spy></section>
+      <section id="seccion5" class="section" data-scroll-spy></section>
+
+      <section id="seccion14" class="section" data-scroll-spy></section>
+      <section id="seccion15" class="section" data-scroll-spy></section>
+    </main>
+    <button class="scroll-top-btn hidden">&#11014;</button>
+
+    <script src="js/dom/index_dom.js" type="module"></script>
+  </body>
+</html>
